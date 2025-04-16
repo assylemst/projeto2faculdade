@@ -1,0 +1,42 @@
+/* Cards de adoção */
+.dog-card {
+    background-color: #fff;
+    border: 2px solid #f0e5d8;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+  }
+  
+  .dog-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .dog-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 15px;
+  }
+  
+  .dog-card h2 {
+    margin-top: 0;
+    color: #d2691e;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #ff4500;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #d23b00;
+  }
+  
